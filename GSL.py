@@ -12,13 +12,13 @@ class GuangSuLian:
         self.stateCode = 'true' # 该网站提速状态码是字符串,不是布朗值
         # self.login_code=0
         # self.Authorization=''
-        self.login_url = 'http://www.fangyb.com:2039/biz/user/login.do'
-        self.exitLogin_url = 'http://www.fangyb.com:2039/biz/user/exitLogin.action'
-        # self.state_url = 'http://www.fangyb.com:2039/biz/common/stateSvc.do'
-        self.myOrder_url = 'http://www.fangyb.com:2039/biz/common/myOrder.action'
-        self.openSpeed_url = 'http://www.fangyb.com:2039/biz/common/openSpeed.action'
-        self.closeSpeed_url = 'http://www.fangyb.com:2039/biz/common/closeSpeed.action'
-        self.speedQuery_url = 'http://www.fangyb.com:2039/biz/common/speedQuery.do'
+        self.login_url = 'https://www.fangyb.com:2039/biz/user/login.do'
+        self.exitLogin_url = 'https://www.fangyb.com:2039/biz/user/exitLogin.action'
+        # self.state_url = 'https://www.fangyb.com:2039/biz/common/stateSvc.do'
+        self.myOrder_url = 'https://www.fangyb.com:2039/biz/common/myOrder.action'
+        self.openSpeed_url = 'https://www.fangyb.com:2039/biz/common/openSpeed.action'
+        self.closeSpeed_url = 'https://www.fangyb.com:2039/biz/common/closeSpeed.action'
+        self.speedQuery_url = 'https://www.fangyb.com:2039/biz/common/speedQuery.do'
         self.headers = {
             'Accept': 'application/json, text/plain, */*',
             'Accept-Encoding': 'gzip, deflate',
